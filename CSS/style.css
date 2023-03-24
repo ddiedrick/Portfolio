@@ -1,0 +1,33 @@
+body{
+    background-color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(8, 8, 114);
+    border: 5pt olive groove ;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li{
+    padding: 10pt 75pt;
+}
+a{
+    color: olive;
+}
