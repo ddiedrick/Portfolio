@@ -1,5 +1,5 @@
 body{
-    background-color: maroon;
+    background-color:rgb(128,0,0,.5) ;
     font-family: 'Courier New', Courier, monospace;
     color: gray;
 }
@@ -16,8 +16,8 @@ nav{
     
     display: flex;
     justify-content: center;
-    background-color: rgb(8, 8, 114);
-    border: 5pt olive groove ;
+    background-color: rgb(0,0,128,.5);
+    border: 5pt rgb(128,128,0,.5)groove ;
 }
 nav ul{
     list-style: none;
@@ -31,3 +31,5 @@ nav ul li{
 a{
     color: olive;
 }
+
+
