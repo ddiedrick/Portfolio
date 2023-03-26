@@ -1,7 +1,21 @@
 body{
     background-color:rgb(128,0,0,.5) ;
     font-family: 'Courier New', Courier, monospace;
-    color: gray;
+    color: black;
+    
+    
+}
+.about1{
+    display: inline;
+    justify-content: center;
+}
+
+.work { 
+    display: flex;
+    display: flex;
+    border: 10px solid;
+    flex-direction: column;
+    justify-content: stretch;
 }
 h1{
     display: flex;
@@ -9,6 +23,10 @@ h1{
     
 }
 h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
     display: flex;
     justify-content: center;
 }
@@ -22,14 +40,38 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
+    display: flex;
+    justify-content: center;
     
 }
 
 nav ul li{
     padding: 10pt 75pt;
+    display: flex;
+    justify-content: center;
 }
 a{
     color: olive;
 }
 
+.pictures{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 10px solid;
+  
+}
 
+.pics{
+    
+    justify-content: center;
+    padding: 10px;
+    width: 30%;
+    height: 150%;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+}
