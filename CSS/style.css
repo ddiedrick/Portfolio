@@ -69,6 +69,7 @@ a{
     display: flex;
     height: 100%;
     width: 100%;
+    min-height: 450px;
     justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
