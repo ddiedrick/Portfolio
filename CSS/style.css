@@ -73,7 +73,7 @@ a{
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 10px solid;
+    border: 5px solid black;
   
 }
 
