@@ -1,5 +1,16 @@
+
+*{
+    padding: 5px;
+}
+html {
+    height: 100%;
+    background-color: black;
+  }
+
+
 body{
-    background-color:rgb(128,0,0,.5) ;
+    padding: 10px;
+    background-color:rgba(173, 35, 35,.5) ;
     font-family: 'Courier New', Courier, monospace;
     color: black;
     
