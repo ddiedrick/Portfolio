@@ -46,7 +46,7 @@ nav{
     display: flex;
     justify-content: center;
     background-color: rgb(0,0,128,.5);
-    border: 5pt rgb(128,128,0,.5)groove ;
+    border: 5pt rgb(128,128,0,.5)groove black;
 }
 nav ul{
     list-style: none;
@@ -62,7 +62,7 @@ nav ul li{
     justify-content: center;
 }
 a{
-    color: olive;
+    color: #808000;
 }
 
 .pictures{
