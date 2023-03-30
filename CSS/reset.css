@@ -8,7 +8,7 @@
   /* Gives the body element a parent height to compare against */
   html {
     height: 100%;
-    background-color: hotpink;
+    background-color: black;
   }
   
   body {

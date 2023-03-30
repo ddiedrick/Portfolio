@@ -67,6 +67,7 @@ a{
 
 .pictures{
     display: flex;
+    box-sizing: border-box;
     justify-content: center;
     flex-grow: 1;
     flex-wrap: wrap;
