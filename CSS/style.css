@@ -16,17 +16,23 @@ body{
     
     
 }
+
 .about1{
-    display: inline;
+    display: flex;
     justify-content: center;
+    border: 7px solid;
+    
 }
 
 .work { 
     display: flex;
     display: flex;
-    border: 10px solid;
+    border: 7px solid;
     flex-direction: column;
     justify-content: stretch;
+}
+.work ul{
+    list-style-type: none;
 }
 h1{
     display: flex;
@@ -45,8 +51,8 @@ nav{
     
     display: flex;
     justify-content: center;
-    background-color: rgb(0,0,128,.5);
-    border: 5pt rgb(128,128,0,.5)groove black;
+    background-color: rgb(0,0,128,.75);
+    border: 7pt rgb(128,128,0,.5)groove black;
 }
 nav ul{
     list-style: none;
@@ -74,7 +80,7 @@ a{
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 5px solid black;
+    border: 7px solid black;
   
 }
 
