@@ -23,17 +23,37 @@ body{
     border: 7px solid;
     
 }
+.container{
+    overflow:hidden;
+    width:auto;
+    display:inline;
+}
+
 
 .work { 
     display: flex;
-    display: flex;
+    width: fit-content;
+    height: fit-content;
     border: 7px solid;
-    flex-direction: column;
-    justify-content: stretch;
+    flex-direction:column;
+    
+    
 }
 .work ul{
     list-style-type: none;
+    justify-items: center;
+    
 }
+.jobs ul{
+    display: flex;
+    justify-content: center;
+}
+.demo{
+    width: 30%;
+    height: 150%;
+
+}
+
 h1{
     display: flex;
     justify-content: center;
@@ -47,7 +67,7 @@ h2{
 }
 h3{
     display: flex;
-    justify-content: flex-start;
+   
     color: aliceblue;
 }
 nav{
@@ -70,7 +90,7 @@ nav ul li{
     justify-content: center;
 }
 a{
-    color: #ecec10;
+    color: olive;
 }
 
 .pictures{
@@ -82,8 +102,7 @@ a{
     flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: row;
-    border: 7px solid black;
-  
+ 
 }
 
 .pics{
